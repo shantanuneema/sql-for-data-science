@@ -44,9 +44,3 @@ INSERT INTO fruits VALUES(NULL);
 -- 6.2 write query to get count without using COUNT(*)
 SELECT COUNT(COALESCE(fruit_name, 'val'))
 FROM fruits;
-
-
-
-
-SELECT * FROM fruit_imports
-
